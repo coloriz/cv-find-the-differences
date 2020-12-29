@@ -34,7 +34,7 @@ def harmonize_topologies(query, train) -> M, query_out, train_out
 
 ### RESULT
 
-<table style="text-align: center">
+<table>
   <tr>
     <td><img src="assets/query_image.png" alt="query_image"></td>
     <td><img src="assets/train_image.png" alt="train_image"></td>
@@ -42,10 +42,10 @@ def harmonize_topologies(query, train) -> M, query_out, train_out
     <td><img src="assets/train_image_output.png" alt="train_image_output"></td>
   </tr>
   <tr>
-    <td>Query Image</td>
-    <td>Train Image</td>
-    <td>Query Image Output</td>
-    <td>Train Image Output</td>
+    <td align="center"><i>Query Image</i></td>
+    <td align="center"><i>Train Image</i></td>
+    <td align="center"><i>Query Image Output</i></td>
+    <td align="center"><i>Train Image Output</i></td>
   </tr>
 </table>
 
@@ -71,12 +71,14 @@ def harmonize_topologies(query, train) -> M, query_out, train_out
     <td><img src="assets/unclustered_rectangles.png" alt="unclustered_rectangles"></td>
     <td>
       <img src="assets/clustered_rectangles_01.png" alt="clustered_rectangles_01">
+    </td>
+    <td>
       <img src="assets/clustered_rectangles_02.png" alt="clustered_rectangles_02">
     </td>
   </tr>
   <tr>
-    <td>Unclustered Rectangles</td>
-    <td>Clustered Rectangles</td>
+    <td align="center"><i>Unclustered Rectangles</i></td>
+    <td colspan="2" align="center"><i>Clustered Rectangles</i></td>
   </tr>
 </table>
 
@@ -85,6 +87,6 @@ def harmonize_topologies(query, train) -> M, query_out, train_out
     <td><img src="assets/transformation_invariant_example.png" alt="transformation_invariant_example"></td>
   </tr>
   <tr>
-    <td>Transformation Invariant Example</td>
+    <td align="center"><i>Transformation Invariant Example</i></td>
   </tr>
 </table>
